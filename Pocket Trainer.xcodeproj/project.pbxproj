@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F19E44D929A014E1007C2107 /* Pocket_TrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E44D829A014E1007C2107 /* Pocket_TrainerApp.swift */; };
-		F19E44DB29A014E1007C2107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E44DA29A014E1007C2107 /* ContentView.swift */; };
 		F19E44DD29A014E3007C2107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19E44DC29A014E3007C2107 /* Assets.xcassets */; };
 		F19E44E029A014E3007C2107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19E44DF29A014E3007C2107 /* Preview Assets.xcassets */; };
+		F1A06B9829B7F8B700F7B388 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A06B9729B7F8B700F7B388 /* SleepView.swift */; };
+		F1A06B9D29B93B0500F7B388 /* DIMITRI_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F1A06B9C29B93ADE00F7B388 /* DIMITRI_.TTF */; };
+		F1A2BE7D29A5C3BD003F88AC /* TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2BE7C29A5C3BD003F88AC /* TrainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F19E44D529A014E1007C2107 /* Pocket Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19E44D829A014E1007C2107 /* Pocket_TrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_TrainerApp.swift; sourceTree = "<group>"; };
-		F19E44DA29A014E1007C2107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F19E44DC29A014E3007C2107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19E44DF29A014E3007C2107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1A06B9729B7F8B700F7B388 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		F1A06B9C29B93ADE00F7B388 /* DIMITRI_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIMITRI_.TTF; sourceTree = "<group>"; };
+		F1A06B9E29B93B2300F7B388 /* Pocket-Trainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pocket-Trainer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F1A2BE7C29A5C3BD003F88AC /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,10 @@
 		F19E44D729A014E1007C2107 /* Pocket Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				F1A06B9E29B93B2300F7B388 /* Pocket-Trainer-Info.plist */,
+				F1A06B9B29B93ACB00F7B388 /* Fonts */,
 				F19E44D829A014E1007C2107 /* Pocket_TrainerApp.swift */,
-				F19E44DA29A014E1007C2107 /* ContentView.swift */,
+				F19E44EC29A01668007C2107 /* Views */,
 				F19E44DC29A014E3007C2107 /* Assets.xcassets */,
 				F19E44DE29A014E3007C2107 /* Preview Content */,
 			);
@@ -65,6 +72,23 @@
 				F19E44DF29A014E3007C2107 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19E44EC29A01668007C2107 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2BE7C29A5C3BD003F88AC /* TrainerView.swift */,
+				F1A06B9729B7F8B700F7B388 /* SleepView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1A06B9B29B93ACB00F7B388 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F1A06B9C29B93ADE00F7B388 /* DIMITRI_.TTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +151,7 @@
 			files = (
 				F19E44E029A014E3007C2107 /* Preview Assets.xcassets in Resources */,
 				F19E44DD29A014E3007C2107 /* Assets.xcassets in Resources */,
+				F1A06B9D29B93B0500F7B388 /* DIMITRI_.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19E44DB29A014E1007C2107 /* ContentView.swift in Sources */,
 				F19E44D929A014E1007C2107 /* Pocket_TrainerApp.swift in Sources */,
+				F1A06B9829B7F8B700F7B388 /* SleepView.swift in Sources */,
+				F1A2BE7D29A5C3BD003F88AC /* TrainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +296,7 @@
 				DEVELOPMENT_TEAM = F5ML93346T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket-Trainer-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +326,7 @@
 				DEVELOPMENT_TEAM = F5ML93346T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket-Trainer-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
